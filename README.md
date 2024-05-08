@@ -16,4 +16,5 @@ qemu-system-i386 main_floppy.img
 ```
 # Docs
 For the docs, please read the Documentation file or visit my Tor/I2P site
+inspired by nanobyte
 
