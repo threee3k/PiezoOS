@@ -6,14 +6,16 @@ First off you need these packages installed:
 ```
 make nasm qemu-system bochs bochsbios vgabios
 ```
-Secondly, To compile and create the .img file run this:
+Secondly, To compile and create the .img file run this, Or you can just execute the run.sh file
 ```
 make
 ```
+
 Once it's done, go to the build file and run
 ```
 qemu-system-i386 main_floppy.img
 ```
+For debugging, run debug.sh 
 # Docs
 For the docs, please read the Documentation file or visit my Tor/I2P site
 inspired by nanobyte
